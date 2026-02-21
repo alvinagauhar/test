@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --base-color: #000000;
+    --secondary-color: #FF5E5E;
+    --color-1: #FF6C29;
+    --color-2: #7A9FFF;
+}
+body{
+    background-color: antiquewhite;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Merriweather, 'Times New Roman', Times, serif;
+    color: var(--base-color);
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+nav {
+   
+    height: 50px;
+    height: 70px;
+; 
+}
+
+nav ul{
+    display: flex;
+    gap: 5em;
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content:first baseline;
+    padding-right: 150px;
+    padding-top: 20px;
+    font-size: larger;
+
+}
+
+nav li:first-child{
+    margin-right: auto;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    width: 50px;
+    height: 50px;
+    border:2px solid #424242; 
+    border-radius: 50%;
+  
+   
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+.flex-container {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 150px;
+    /* border: 10px solid red; */
+    margin-left: 100px;
+    column-gap: 20px;;
+
+}
+
+.cta-button {
+    text-decoration: underline;
+    padding-top:100px 
+}
+
+.cta-button2 {
+    text-decoration: underline;
+    margin-top:1px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--base-color);
+}
+
+
+.first-image {
+    width: 150px;
+    height:150px;
+    border: 2px solid #9e9b9b;
+    
+}
+
+.images {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    padding-top: 50px; 
+    /* padding-right: 130px; */
+    padding-bottom: 50px;
+    /* border: 10px solid blue; */
+    /* width: 500px; */
+    /* padding-left: 130px; */
+    margin-left:auto;
+    margin-right:auto;
+     background-image: url('images/background-bg.jfif');
+     margin-top: 150px;
+    
+}
+h3.contact{
+    color: #b2b2b2;
+} 
+
+.gallery-flex-container{
+    display:flex;
+    column-gap: 10px;;
+    justify-content: center;
+    margin-top:150px;
+}
+h2{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 30px;
+    
+}
+.slack img:hover{
+    border:2px;
+    border-style: solid ;
+    border-color:#b2b2b2;
+
+}
+.github img:hover{
+    border:2px;
+    border-style: solid ;
+    border-color: #b2b2b2;
+
+}
+.gmail img:hover{
+    border:2px;
+    border-style: solid ;
+    border-color: #b2b2b2;
+
+}
+/* Gallery section styling */
+.autumn{
+    height: 250px ;
+}
+
+.autumn:hover{
+    border: 3px solid #424242;
+    padding-top: ;
+}
+.bus{
+     height: 150px ;
+}
+
+.bus:hover{
+    border: 3px solid #424242;
+    
+}
+.clouds{
+    height: 200px;
+}
+.clouds:hover{
+    border: 3px solid  #424242;
+    
+}
+.flower{
+    height: 100px;
+}
+.flower:hover{
+    border: 3px solid #424242;
+    
+}
+.vintage{
+     height: 170px;
+}
+.vintage:hover{
+    border: 3px solid #424242;
+    
+}
+.highway{
+    height:200px;
+}
+.highway:hover{
+    border: 3px solid #424242;
+    
+}
+.title{
+    margin-top:150px;
+    margin-bottom:50px;
+    background-color: #FFA6BB;
+    padding-top: 15px;
+    padding-bottom:15px;
+    width:500px;
+    
+}
+.FAQ > button{
+    width:600px;
+    border:none; 
+    background-color:#FFA7BD;
+    font-size: Merriweather, 'Times New Roman', Times, serif;
+    ;
+
+
+.FAQ{
+    display:flex;
+    
+    justify-items: center;
+    align-items: center;
+    
+    row-gap: 10px;
+    
+}   
+
+
+
